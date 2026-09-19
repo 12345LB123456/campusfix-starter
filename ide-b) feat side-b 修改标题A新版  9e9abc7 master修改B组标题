@@ -1,0 +1,13 @@
+*   [33m9fb63e4[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m 解决README合并冲突
+[31m|[m[32m\[m  
+[31m|[m * [33m0822d51[m[33m ([m[1;32mside-b[m[33m)[m feat: side-b 修改标题A新版
+* [32m|[m [33m9e9abc7[m master修改B组标题
+* [32m|[m [33m674ad92[m feat: master 修改README为B组版
+[32m|[m[32m/[m  
+* [33mf43d1d3[m feat: side-b分支修改README为A组版
+* [33me7e282d[m feat: 修改首页标题，完成项目初始化
+* [33m6d1412d[m feat: 修改首页标题，完成项目初始化
+* [33mf23f61f[m feat: 首页标题加上小组标识
+* [33ma567222[m chore: 添加gitignore忽略文件
+* [33mc2e1415[m docs: 添加项目说明
+* [33m6246430[m 初始化数据库脚本
