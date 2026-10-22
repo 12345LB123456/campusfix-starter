@@ -19,6 +19,13 @@ def test_list_tickets(client):
     assert "CampusFix".encode("utf-8") in resp.data
 
 
+def test_index_title(client):
+    """首页标题应显示 CampusFix-20252058"""
+    resp = client.get("/")
+    assert resp.status_code == 200
+    assert "CampusFix-20252058".encode("utf-8") in resp.data
+
+
 def test_create_ticket(client):
     """POST 创建工单：列表出现新工单，且 room/description 字段顺序正确"""
     resp = client.post(
